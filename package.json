@@ -1,15 +1,15 @@
 {
-  "name": "xy-tools",
+  "name": "xy-component-tools",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/xy-component-tools.js",
   "scripts": {
-    "start": "xy-tools start",
-    "build": "xy-tools compile",
-    "style": "xy-tools style"
+    "start": "xy-component-tools start",
+    "build": "xy-component-tools compile",
+    "style": "xy-component-tools style"
   },
   "bin": {
-    "xy-tools": "./bin/xy-tools.js"
+    "xy-component-tools": "./bin/xy-component-tools.js"
   },
   "author": "",
   "license": "ISC",
