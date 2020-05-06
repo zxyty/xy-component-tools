@@ -31,17 +31,17 @@ const plugins = [
     }
   ]
 ];
-if (process.env["BABEL_ENV"] && process.env["BABEL_ENV"] === "production") {
-  plugins.push(
-    [
-      "@babel/plugin-transform-modules-systemjs",
-      {
-        // outputs SystemJS.register(...)
-        "systemGlobal": "SystemJS"
-      }
-    ]
-  )
-}
+// if (process.env["BABEL_ENV"] && process.env["BABEL_ENV"] === "production") {
+//   plugins.push(
+//     [
+//       "@babel/plugin-transform-modules-systemjs",
+//       {
+//         // outputs SystemJS.register(...)
+//         "systemGlobal": "SystemJS"
+//       }
+//     ]
+//   )
+// }
 module.exports = {
   presets,
   plugins

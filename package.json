@@ -4,17 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "yarn compile-before && yarn compile-components && yarn compile-style",
-    "compile-before": "rimraf lib/components",
-    "compile-components": "cross-env BABEL_ENV=production babel ./src/components --out-dir lib  --extensions .ts,.tsx,.js --copy-files --ignore spec.js,test.js && tsc -p ./tsconfig.json",
-    "compile-style": "xy-tools style"
+    "start": "xy-tools start",
+    "build": "xy-tools compile",
+    "style": "xy-tools style"
   },
   "bin": {
     "xy-tools": "./bin/xy-tools.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

@@ -84,7 +84,7 @@ module.exports = {
         loader: 'css-loader',
         options: {
           sourceMap: true,
-          modules: false, // not enable css module
+          modules: true, // not enable css module
         },
       },
       {
