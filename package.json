@@ -1,7 +1,7 @@
 {
   "name": "xy-component-tools",
-  "version": "1.0.1",
-  "description": "xy quickly start remote-components",
+  "version": "1.0.2",
+  "description": "quickly start remote-components builder",
   "main": "bin/xy-component-tools.js",
   "bin": {
     "xy-component-tools": "./bin/xy-component-tools.js"
