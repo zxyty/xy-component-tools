@@ -4,3 +4,4 @@ public
 tsconfig.json
 .gitignore
 .babelrc.js
+node_modules
