@@ -1,6 +1,6 @@
 {
   "name": "xy-component-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "quickly start remote-components builder",
   "main": "bin/xy-component-tools.js",
   "bin": {
@@ -10,8 +10,12 @@
     "rmm": "rimraf node_modules"
   },
   "author": "zxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxyty/xy-component-tools"
+  },
   "license": "ISC",
   "dependencies": {
-    "xy-remote-components-template": "^1.0.1"
+    "xy-remote-components-template": "^1.0.3"
   }
 }
